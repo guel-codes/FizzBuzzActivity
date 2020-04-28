@@ -1,34 +1,18 @@
 # FizzBuzzActivity
- Python Learning Club Activity for Github
+ FizzBuzz is a program that takes in a list of numbers and outputs the result of Fizz, Buzz or FizzBuzz depending on if the number in the list is divisible by 3,5 or 3 & 5 respectively. 
+
 
 ## Files created
 - helpers.py
 - fizzbuzz.py
 
-### helpers.py
-```python
-def fizzbuzz(list_):
-    for number in list_:
-        if number % 3 == 0 and number % 5 == 0:
-            print(f"FizzBuzz")
-        elif number % 3 == 0:
-            print(f"Fizz")
-        elif number % 5 == 0:
-            print(f"Buzz")
-        else:
-            print(number)
-            
+## Usage
+```python 
+INPUT: my_list = [1,2,3,5,7,9,15,30]
+OUTPUT: 1,2,Fizz,Buzz,7,Fizz,FizzBuzz,FizzBuzz           
 ``` 
-### fizzbuzz.py
-```python
-from helpers import fizzbuzz
-my_list = [1,2,3,5,7,9,15,45]
-
-def test_fizzbuzz():
-    fizzbuzz(my_list)
-
-test_fizzbuzz()
-```
+## Insight:
+For testing purposes I made the list of numbers in the fizzbuzz.py file instead of asking for user input. This functionality can be added later for a user to input a list of numbers.
 # Requirements/Tests:
 - Prints "Fizz" for numbers in list divisible by 3
 - Prints "Buzz" for numbers in list divisible by 5
