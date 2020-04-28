@@ -7,6 +7,7 @@ def fizzbuzz(list_):
         elif number % 5 == 0:
             print(f"Buzz")
         else:
-            pass
+            print(number)
+            
     
     
