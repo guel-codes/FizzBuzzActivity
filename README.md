@@ -1,5 +1,5 @@
 # FizzBuzzActivity
- Python Learning Club Activity fot Github
+ Python Learning Club Activity for Github
 
 ## Files created
 - helpers.py
@@ -18,7 +18,7 @@ def fizzbuzz(list_):
         else:
             print(number)
             
-```
+``` 
 ### fizzbuzz.py
 ```python
 from helpers import fizzbuzz
