@@ -1,6 +1,10 @@
 from helpers import fizzbuzz
-my_list = [3]
-def test_fizz():
-    fizzbuzz(my_list)
+my_list = [3,5]
+# def test_fizz():
+#     fizzbuzz(my_list)
 
-test_fizz()
+def test_buzz():
+    fizzbuzz(my_list)
+    
+
+test_buzz()
