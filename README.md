@@ -6,7 +6,7 @@
 - fizzbuzz.py
 
 ### helpers.py
-'''python
+```python
 def fizzbuzz(list_):
     for number in list_:
         if number % 3 == 0 and number % 5 == 0:
@@ -18,9 +18,9 @@ def fizzbuzz(list_):
         else:
             print(number)
             
-'''
+```
 ### fizzbuzz.py
-'''python
+```python
 from helpers import fizzbuzz
 my_list = [1,2,3,5,7,9,15,45]
 
@@ -28,7 +28,7 @@ def test_fizzbuzz():
     fizzbuzz(my_list)
 
 test_fizzbuzz()
-'''
+```
 # Requirements/Tests:
 - Prints "Fizz" for numbers in list divisible by 3
 - Prints "Buzz" for numbers in list divisible by 5
